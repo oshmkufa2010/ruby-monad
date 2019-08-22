@@ -1,6 +1,6 @@
 ## 在Ruby里模拟Scala的for comprehension
 
-Haskell的do-notation是个好东西，类似于JavaScript的async-await语法，可以帮助我们从`>>=`运算符的层层嵌套中解脱出来，其实质是编译器帮助我们做了一次CPS变换
+Haskell的do-notation是个好东西，类似于JavaScript的async-await语法（实际上do-notation比async-await强大很多），可以帮助我们从`>>=`运算符的层层嵌套中解脱出来，其实质是编译器帮助我们做了一次CPS变换
 
 In Haskell
 ```Haskell
