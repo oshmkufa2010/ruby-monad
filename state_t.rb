@@ -24,7 +24,7 @@ class StateT
       end
     
       define_method :flat_map do |&g|
-        self.class.new do |sik-pay-activity|
+        self.class.new do |s|
           run(s).flat_map do |a, ss|
             g.(a).run(ss)
           end
